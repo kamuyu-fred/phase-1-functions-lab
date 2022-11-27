@@ -1,17 +1,14 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(someValue) {
-    someValue > 0;
-    if (someValue >= 42) {
-        return someValue - 42;
+someValue > 0;
+if (someValue >= 42) {
+    return someValue - 42;
     }
     else if (someValue < 42) {
         return 42 - someValue;
     }
 }
-
 distanceFromHqInBlocks(someValue);
-
-
 
 function distanceFromHqInFeet(someValue) {
     return distanceFromHqInBlocks(someValue) * 264;
@@ -45,5 +42,4 @@ function calculatesFarePrice(start, destination) {
         return 'cannot travel that far';
     }  
 }
-
 calculatesFarePrice(start, destination);
